@@ -15,7 +15,9 @@ print("iteracion range")
 for i in range (1 ,10):
     print(i)
 
-    #recorrer de dos en 2 
+#recorrer de dos en 2 
 print("Rango de 2 en 2 ")
 for i in range (1 ,10 ,2):
     print(i)
+
+
