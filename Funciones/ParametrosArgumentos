@@ -1,0 +1,15 @@
+def suma (num1, num2):
+    suma= num1 + num2
+    return suma
+
+print(suma(3,5))
+
+
+#Argumentos indefinidos
+
+def argumento(*num):
+    print(type(num))
+    for i in num:
+        print(i)
+
+print(argumento(10,20,30,40))
