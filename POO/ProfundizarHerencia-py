@@ -1,0 +1,14 @@
+class Animales():
+    def __init__(self, nombre):
+        self.nombre = nombre
+    
+class Perro(Animales):
+    def __init__(self, nombre, sonido):
+        super().__init__(nombre) #necesario para que heree del todo
+        self.sonido= sonido 
+    
+perro= Perro("Firulais", "guau guau")
+
+
+print(perro.nombre) #no se heredan del todo en el metodo init hay que poner super
+print(perro.sonido)

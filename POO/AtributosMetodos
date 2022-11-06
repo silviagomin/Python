@@ -1,0 +1,29 @@
+#Los objetos van a tener atributos Acciones que puede realizar 
+#Atributos Cracateristicas, cualidades o descripciones 
+
+
+class FabricaTelefonos():
+    #atributos
+    marca = "Huawei"
+    color= "Azul"
+    memoriaRam= 32
+    almacenamiento= 128
+
+    #metdos
+    def llamar(self, mensaje):
+        return mensaje
+
+    def escucharMuasica(self):
+        print("Estas escuchando musica")
+
+telefono= FabricaTelefonos()
+
+print(telefono) #Nos da informacion del objeto
+
+#Accesso a los atributos 
+print(telefono.marca)
+print(telefono.color)
+
+#Metodos
+print(telefono.llamar("Hola, ¿con quien hablo?"))
+telefono.escucharMuasica() 
